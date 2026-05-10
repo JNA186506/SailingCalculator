@@ -33,6 +33,7 @@ export type MaterialCategory =
 | "Bar"
 | "Metal sheet"
 | "Hull part"
+| "Keel part"
 | "Fabric"
 | "Tar"
 | "Rope"
@@ -44,14 +45,14 @@ interface BaseMaterial {
 }
 
 interface WoodMaterial extends BaseMaterial {
-    category : "Log" | "Plank";
+    category : "Log" | "Plank" | "Hull part";
     woodType : WoodType;
     metalType? : never;
     fabricType? : never;
 }
 
 interface MetalMaterial extends BaseMaterial {
-    category : "Bar" | "Metal sheet" | "Hull part" | "Nail";
+    category : "Bar" | "Metal sheet" | "Keel part" | "Nail";
     metalType : MetalType;
     woodType? : never;
     fabricType? : never;

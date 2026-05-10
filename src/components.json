@@ -9,7 +9,7 @@
       "constructionReq": 1,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "bronze",
           "amount": 10
         }
@@ -24,7 +24,7 @@
       "constructionReq": 17,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "iron",
           "amount": 10
         }
@@ -39,7 +39,7 @@
       "constructionReq": 32,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "steel",
           "amount": 10
         },
@@ -59,7 +59,7 @@
       "constructionReq": 50,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "mithril",
           "amount": 10
         },
@@ -79,7 +79,7 @@
       "constructionReq": 62,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "adamant",
           "amount": 10
         },
@@ -99,7 +99,7 @@
       "constructionReq": 78,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "rune",
           "amount": 10
         },
@@ -119,7 +119,7 @@
       "constructionReq": 87,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "dragon",
           "amount": 10
         },
@@ -139,7 +139,7 @@
       "constructionReq": 1,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "bronze",
           "amount": 16
         }
@@ -154,7 +154,7 @@
       "constructionReq": 17,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "iron",
           "amount": 16
         }
@@ -169,7 +169,7 @@
       "constructionReq": 32,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "steel",
           "amount": 16
         },
@@ -189,7 +189,7 @@
       "constructionReq": 50,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "mithril",
           "amount": 16
         },
@@ -209,7 +209,7 @@
       "constructionReq": 62,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "adamant",
           "amount": 16
         },
@@ -229,7 +229,7 @@
       "constructionReq": 78,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "rune",
           "amount": 16
         },
@@ -249,7 +249,7 @@
       "constructionReq": 87,
       "materials": [
         {
-          "category": "Hull part",
+          "category": "Keel part",
           "metalType": "dragon",
           "amount": 16
         },
@@ -469,7 +469,7 @@
       "constructionReq": 1,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "wooden",
           "amount": 10
         },
@@ -494,7 +494,7 @@
       "constructionReq": 8,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "oak",
           "amount": 10
         },
@@ -519,7 +519,7 @@
       "constructionReq": 23,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "teak",
           "amount": 10
         },
@@ -549,7 +549,7 @@
       "constructionReq": 41,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "mahogany",
           "amount": 10
         },
@@ -579,7 +579,7 @@
       "constructionReq": 59,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "camphor",
           "amount": 10
         },
@@ -609,7 +609,7 @@
       "constructionReq": 75,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "ironwood",
           "amount": 10
         },
@@ -639,7 +639,7 @@
       "constructionReq": 84,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "rosewood",
           "amount": 10
         },
@@ -669,7 +669,7 @@
       "constructionReq": 1,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "wooden",
           "amount": 16
         },
@@ -694,7 +694,7 @@
       "constructionReq": 8,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "oak",
           "amount": 16
         },
@@ -719,7 +719,7 @@
       "constructionReq": 23,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "teak",
           "amount": 16
         },
@@ -749,7 +749,7 @@
       "constructionReq": 41,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "mahogany",
           "amount": 16
         },
@@ -779,7 +779,7 @@
       "constructionReq": 59,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "camphor",
           "amount": 16
         },
@@ -809,7 +809,7 @@
       "constructionReq": 75,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "ironwood",
           "amount": 16
         },
@@ -839,7 +839,7 @@
       "constructionReq": 84,
       "materials": [
         {
-          "category": "Plank",
+          "category": "Hull part",
           "woodType": "rosewood",
           "amount": 16
         },

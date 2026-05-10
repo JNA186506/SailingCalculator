@@ -42,9 +42,20 @@ calculateButton.addEventListener('click', () => {
     renderResults(bestComponents);
 });
 
-function formatMaterial(material: Material): string {
-    const type = material.metalType ?? material.woodType ?? material.fabricType ?? '';
-    return `${type} ${material.category} x${material.amount}`;
+function getMaterialType(material: Material): string {
+    if ('metalType' in material) return material.metalType;
+    if ('woodType'  in material) return material.woodType;
+    if ('fabricType' in material) return material.fabricType;
+    return '';
+}
+
+function formatMaterial(material: Material, boatType?: string): string {
+    const type = getMaterialType(material);
+    const category =
+        boatType === 'sloop' && material.category === 'Hull part' ? 'Large hull part' :
+        boatType === 'sloop' && material.category === 'Keel part' ? 'Large keel part' :
+        material.category;
+    return `${type} ${category} x${material.amount}`;
 }
 
 function renderResults(filtered: BuildableComponent[]) {
@@ -68,7 +79,7 @@ function renderResults(filtered: BuildableComponent[]) {
             if ('name' in m) {
                 item.textContent = `${m.name} x${m.amount}`;
             } else {
-                item.textContent = formatMaterial(m);
+                item.textContent = formatMaterial(m, c.boatType);
             }
             list.appendChild(item);
         });
@@ -103,8 +114,7 @@ function renderTotal(totals : Map<string, { material : Material, total : number}
             if ('name' in v.material) {
                 item.textContent = `${v.material.name} x${v.total}`;
             } else {
-                const type = v.material.metalType ?? v.material.woodType ?? v.material.fabricType ?? '';
-                item.textContent = `${type} x${v.total}`;
+                item.textContent = `${getMaterialType(v.material)} x${v.total}`;
             }
             list.appendChild(item);
         });

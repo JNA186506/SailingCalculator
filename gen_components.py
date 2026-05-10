@@ -26,8 +26,11 @@ def sheet(metal, amount):
 def hull_part(metal, amount):
     return {"category": "Hull part", "metalType": metal, "amount": amount}
 
+def keel_part(metal, amount):
+    return {"category": "Keel part", "metalType": metal, "amount": amount}
+
 def wood_hull_part(wood, amount):
-    return {"category": "Plank", "woodType": wood, "amount": amount}
+    return {"category": "Hull part", "woodType": wood, "amount": amount}
 
 def fabric(ftype, amount):
     return {"category": "Fabric", "fabricType": ftype, "amount": amount}
@@ -57,25 +60,25 @@ def add(name, ctype, boat, sail, con, materials):
 # ─── KEELS ──────────────────────────────────────────────────────────────────
 
 skiff_keel_data = [
-    ("Bronze", 15, 1,  [hull_part("bronze", 10)]),
-    ("Iron",   22, 17, [hull_part("iron", 10)]),
-    ("Steel",  39, 32, [hull_part("steel", 10), bar("lead", 5)]),
-    ("Mithril",54, 50, [hull_part("mithril", 10), bar("lead", 5)]),
-    ("Adamant",66, 62, [hull_part("adamant", 10), bar("lead", 5)]),
-    ("Rune",   85, 78, [hull_part("rune", 10), bar("cupronickel", 5)]),
-    ("Dragon", 97, 87, [hull_part("dragon", 10), bar("cupronickel", 5)]),
+    ("Bronze", 15, 1,  [keel_part("bronze", 10)]),
+    ("Iron",   22, 17, [keel_part("iron", 10)]),
+    ("Steel",  39, 32, [keel_part("steel", 10), bar("lead", 5)]),
+    ("Mithril",54, 50, [keel_part("mithril", 10), bar("lead", 5)]),
+    ("Adamant",66, 62, [keel_part("adamant", 10), bar("lead", 5)]),
+    ("Rune",   85, 78, [keel_part("rune", 10), bar("cupronickel", 5)]),
+    ("Dragon", 97, 87, [keel_part("dragon", 10), bar("cupronickel", 5)]),
 ]
 for tier, s, c, mats in skiff_keel_data:
     add(f"{tier} skiff keel", "keel", "skiff", s, c, mats)
 
 sloop_keel_data = [
-    ("Bronze", 50, 1,  [hull_part("bronze", 16)]),
-    ("Iron",   50, 17, [hull_part("iron", 16)]),
-    ("Steel",  50, 32, [hull_part("steel", 16), bar("lead", 5)]),
-    ("Mithril",54, 50, [hull_part("mithril", 16), bar("lead", 5)]),
-    ("Adamant",66, 62, [hull_part("adamant", 16), bar("lead", 5)]),
-    ("Rune",   85, 78, [hull_part("rune", 16), bar("cupronickel", 5)]),
-    ("Dragon", 97, 87, [hull_part("dragon", 16), bar("cupronickel", 5)]),
+    ("Bronze", 50, 1,  [keel_part("bronze", 16)]),
+    ("Iron",   50, 17, [keel_part("iron", 16)]),
+    ("Steel",  50, 32, [keel_part("steel", 16), bar("lead", 5)]),
+    ("Mithril",54, 50, [keel_part("mithril", 16), bar("lead", 5)]),
+    ("Adamant",66, 62, [keel_part("adamant", 16), bar("lead", 5)]),
+    ("Rune",   85, 78, [keel_part("rune", 16), bar("cupronickel", 5)]),
+    ("Dragon", 97, 87, [keel_part("dragon", 16), bar("cupronickel", 5)]),
 ]
 for tier, s, c, mats in sloop_keel_data:
     add(f"{tier} sloop keel", "keel", "sloop", s, c, mats)
