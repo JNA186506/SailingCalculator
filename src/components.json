@@ -1,0 +1,3044 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "name": "Bronze skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 15,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "bronze",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Iron skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 22,
+      "constructionReq": 17,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "iron",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Steel skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 39,
+      "constructionReq": 32,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "steel",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mithril skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 54,
+      "constructionReq": 50,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "mithril",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Adamant skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 66,
+      "constructionReq": 62,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "adamant",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Rune skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 85,
+      "constructionReq": 78,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "rune",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dragon skiff keel",
+      "type": "keel",
+      "boatType": "skiff",
+      "sailingReq": 97,
+      "constructionReq": 87,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "dragon",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bronze sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "bronze",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Iron sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 17,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "iron",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Steel sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 32,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "steel",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mithril sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 54,
+      "constructionReq": 50,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "mithril",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Adamant sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 66,
+      "constructionReq": 62,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "adamant",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Rune sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 85,
+      "constructionReq": 78,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "rune",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Dragon sloop keel",
+      "type": "keel",
+      "boatType": "sloop",
+      "sailingReq": 97,
+      "constructionReq": 87,
+      "materials": [
+        {
+          "category": "Hull part",
+          "metalType": "dragon",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Wooden raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "wooden",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Oak raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 20,
+      "constructionReq": 8,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "oak",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Teak raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 31,
+      "constructionReq": 23,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "teak",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Mahogany raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 48,
+      "constructionReq": 41,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "mahogany",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Camphor raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 67,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "camphor",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Ironwood raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 81,
+      "constructionReq": 75,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "ironwood",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Rosewood raft hull",
+      "type": "hull",
+      "boatType": "raft",
+      "sailingReq": 93,
+      "constructionReq": 84,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "rosewood",
+          "amount": 10
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 6
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Wooden skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 15,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Oak skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 20,
+      "constructionReq": 8,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Teak skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 31,
+      "constructionReq": 23,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Mahogany skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 48,
+      "constructionReq": 41,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Camphor skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 67,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Ironwood skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 81,
+      "constructionReq": 75,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Rosewood skiff hull",
+      "type": "hull",
+      "boatType": "skiff",
+      "sailingReq": 93,
+      "constructionReq": 84,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 300
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 20
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Wooden sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Oak sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 8,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Teak sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 23,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Mahogany sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 41,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Camphor sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 67,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Ironwood sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 81,
+      "constructionReq": 75,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Rosewood sloop hull",
+      "type": "hull",
+      "boatType": "sloop",
+      "sailingReq": 93,
+      "constructionReq": 84,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 16
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 600
+        },
+        {
+          "category": "Tar",
+          "name": "Swamp tar",
+          "amount": 25
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Wooden raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "wooden",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Wooden skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "wooden",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Wooden sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "wooden",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Oak raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 24,
+      "constructionReq": 11,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "oak",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Oak skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 24,
+      "constructionReq": 11,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "oak",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Oak sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 11,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "oak",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "linen",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Teak raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 36,
+      "constructionReq": 26,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "teak",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Teak skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 36,
+      "constructionReq": 26,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "teak",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Teak sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 50,
+      "constructionReq": 26,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "teak",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Mahogany raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 52,
+      "constructionReq": 45,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "mahogany",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Mahogany skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 52,
+      "constructionReq": 45,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "mahogany",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Mahogany sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 52,
+      "constructionReq": 45,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "mahogany",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Camphor raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 68,
+      "constructionReq": 60,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "camphor",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Camphor skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 68,
+      "constructionReq": 60,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "camphor",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Camphor sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 68,
+      "constructionReq": 60,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "camphor",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "canvas",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ironwood raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 83,
+      "constructionReq": 77,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "ironwood",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Ironwood skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 83,
+      "constructionReq": 77,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "ironwood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Ironwood sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 83,
+      "constructionReq": 77,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "ironwood",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Rosewood raft mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "raft",
+      "sailingReq": 94,
+      "constructionReq": 85,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "rosewood",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 20
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Rosewood skiff mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "skiff",
+      "sailingReq": 94,
+      "constructionReq": 85,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "rosewood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 40
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Rosewood sloop mast and sails",
+      "type": "mast-and-sail",
+      "boatType": "sloop",
+      "sailingReq": 94,
+      "constructionReq": 85,
+      "materials": [
+        {
+          "category": "Log",
+          "woodType": "rosewood",
+          "amount": 15
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 60
+        },
+        {
+          "category": "Fabric",
+          "fabricType": "cotton",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Bronze raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "bronze",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Bronze skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "bronze",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Bronze sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "bronze",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Iron raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 17,
+      "constructionReq": 14,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "iron",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Iron skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 17,
+      "constructionReq": 14,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "iron",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Iron sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 17,
+      "constructionReq": 14,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "iron",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Steel raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 38,
+      "constructionReq": 30,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Steel skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 38,
+      "constructionReq": 30,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Steel sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 38,
+      "constructionReq": 30,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Mithril raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 55,
+      "constructionReq": 47,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Mithril skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 55,
+      "constructionReq": 47,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Mithril sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 55,
+      "constructionReq": 47,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Adamant raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 72,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Adamant skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 72,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Adamant sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 72,
+      "constructionReq": 59,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Rune raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 87,
+      "constructionReq": 81,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 2
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Rune skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 87,
+      "constructionReq": 81,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 3
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Rune sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 87,
+      "constructionReq": 81,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Dragon raft helm",
+      "type": "helm",
+      "boatType": "raft",
+      "sailingReq": 96,
+      "constructionReq": 86,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 2
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Dragon skiff helm",
+      "type": "helm",
+      "boatType": "skiff",
+      "sailingReq": 96,
+      "constructionReq": 86,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 3
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Dragon sloop helm",
+      "type": "helm",
+      "boatType": "sloop",
+      "sailingReq": 96,
+      "constructionReq": 86,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 4
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Basic cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 1,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Oak cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 18,
+      "constructionReq": 11,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Teak cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 29,
+      "constructionReq": 21,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Mahogany cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 46,
+      "constructionReq": 41,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Camphor cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 60,
+      "constructionReq": 53,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Ironwood cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 80,
+      "constructionReq": 77,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Rosewood cargo hold",
+      "type": "cargo-hold",
+      "boatType": "raft",
+      "sailingReq": 89,
+      "constructionReq": 84,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Bronze cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 28,
+      "constructionReq": 21,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "bronze",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Iron cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 35,
+      "constructionReq": 28,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "iron",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Steel cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 47,
+      "constructionReq": 39,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Mithril cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 57,
+      "constructionReq": 50,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Adamant cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 69,
+      "constructionReq": 61,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Rune cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 80,
+      "constructionReq": 76,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Dragon cannon",
+      "type": "cannon",
+      "boatType": "raft",
+      "sailingReq": 92,
+      "constructionReq": 84,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 16
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 8
+        },
+        {
+          "category": "special",
+          "name": "Dragon cannon barrel",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Bronze salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 15,
+      "constructionReq": 1,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "wooden",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "bronze",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "bronze",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Iron salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 21,
+      "constructionReq": 9,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "iron",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Steel salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 27,
+      "constructionReq": 18,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Mithril salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 44,
+      "constructionReq": 30,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Adamant salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 59,
+      "constructionReq": 52,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 3
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Rune salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 74,
+      "constructionReq": 66,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 4
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Dragon salvaging hook",
+      "type": "salvaging-hook",
+      "boatType": "raft",
+      "sailingReq": 86,
+      "constructionReq": 78,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 16
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Broken dragon hook",
+          "amount": 1
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Rope trawling net",
+      "type": "trawling-net",
+      "boatType": "skiff",
+      "sailingReq": 56,
+      "constructionReq": 45,
+      "materials": [
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 7
+        },
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Linen trawling net",
+      "type": "trawling-net",
+      "boatType": "skiff",
+      "sailingReq": 65,
+      "constructionReq": 53,
+      "materials": [
+        {
+          "category": "special",
+          "name": "Linen yarn",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        },
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "mithril",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Hemp trawling net",
+      "type": "trawling-net",
+      "boatType": "skiff",
+      "sailingReq": 76,
+      "constructionReq": 65,
+      "materials": [
+        {
+          "category": "special",
+          "name": "Hemp yarn",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        },
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Ray barb",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Cotton trawling net",
+      "type": "trawling-net",
+      "boatType": "skiff",
+      "sailingReq": 84,
+      "constructionReq": 73,
+      "materials": [
+        {
+          "category": "special",
+          "name": "Cotton yarn",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        },
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "rune",
+          "amount": 4
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Ray barb",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Range",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 16,
+      "constructionReq": 6,
+      "materials": [
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Charcoal",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Tinderbox",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Keg",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 33,
+      "constructionReq": 25,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "oak",
+          "amount": 5
+        },
+        {
+          "category": "Nail",
+          "metalType": "iron",
+          "amount": 20
+        },
+        {
+          "category": "special",
+          "name": "Barrel stand",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Salvaging station",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 42,
+      "constructionReq": 34,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Innoculation station",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 40,
+      "constructionReq": 37,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 32
+        },
+        {
+          "category": "special",
+          "name": "Relicym's balm(4)",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Chum station",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 56,
+      "constructionReq": 45,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 40
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Fishing bait",
+          "amount": 1000
+        },
+        {
+          "category": "special",
+          "name": "Knife",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Advanced chum station",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 68,
+      "constructionReq": 61,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 40
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Fishing bait",
+          "amount": 1000
+        },
+        {
+          "category": "special",
+          "name": "Knife",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Chum spreader",
+      "type": "station",
+      "boatType": "raft",
+      "sailingReq": 82,
+      "constructionReq": 74,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 40
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        },
+        {
+          "category": "special",
+          "name": "Fishing bait",
+          "amount": 10000
+        },
+        {
+          "category": "special",
+          "name": "Narwhal horn knife",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Wind catcher",
+      "type": "wind",
+      "boatType": "raft",
+      "sailingReq": 53,
+      "constructionReq": 47,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "teak",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "steel",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 8
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Air rune",
+          "amount": 10000
+        },
+        {
+          "category": "special",
+          "name": "Captured wind mote",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Crystal extractor",
+      "type": "wind",
+      "boatType": "raft",
+      "sailingReq": 73,
+      "constructionReq": 67,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 6
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 5
+        },
+        {
+          "category": "special",
+          "name": "Magic stone",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Heart of Ithell",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Gale catcher",
+      "type": "wind",
+      "boatType": "raft",
+      "sailingReq": 79,
+      "constructionReq": 70,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 4
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 16
+        },
+        {
+          "category": "Bar",
+          "metalType": "adamant",
+          "amount": 8
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Air rune",
+          "amount": 25000
+        },
+        {
+          "category": "special",
+          "name": "Captured wind mote",
+          "amount": 1
+        },
+        {
+          "category": "special",
+          "name": "Swift albatross feather",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Anchor",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 37,
+      "constructionReq": 29,
+      "materials": [
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 8
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 6
+        },
+        {
+          "category": "Rope",
+          "name": "Rope",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Ballistic attractor",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 50,
+      "constructionReq": 44,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 10
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 5
+        },
+        {
+          "category": "Bar",
+          "metalType": "steel",
+          "amount": 5
+        },
+        {
+          "category": "special",
+          "name": "Water rune",
+          "amount": 5000
+        },
+        {
+          "category": "special",
+          "name": "Law rune",
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Teleport focus",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 55,
+      "constructionReq": 49,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "mahogany",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "mithril",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "lead",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Magic stone",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Fathom stone",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 70,
+      "constructionReq": 62,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "camphor",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "adamant",
+          "amount": 40
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Molten glass",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Greater teleport focus",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 75,
+      "constructionReq": 69,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "ironwood",
+          "amount": 8
+        },
+        {
+          "category": "Nail",
+          "metalType": "rune",
+          "amount": 32
+        },
+        {
+          "category": "Bar",
+          "metalType": "cupronickel",
+          "amount": 4
+        },
+        {
+          "category": "special",
+          "name": "Magic stone",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Bottled storm",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Fathom pearl",
+      "type": "misc",
+      "boatType": "raft",
+      "sailingReq": 91,
+      "constructionReq": 83,
+      "materials": [
+        {
+          "category": "Plank",
+          "woodType": "rosewood",
+          "amount": 10
+        },
+        {
+          "category": "Nail",
+          "metalType": "dragon",
+          "amount": 40
+        },
+        {
+          "category": "Metal sheet",
+          "metalType": "dragon",
+          "amount": 2
+        },
+        {
+          "category": "special",
+          "name": "Echo pearl",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
