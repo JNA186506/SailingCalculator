@@ -38,7 +38,7 @@ calculateButton.addEventListener('click', () => {
 
     const totals = getTotalCost(bestComponents);
 
-    renderTotal(totals);
+    renderTotal(totals, selectedBoatType);
     renderResults(bestComponents);
 });
 
@@ -89,7 +89,7 @@ function renderResults(filtered: BuildableComponent[]) {
     });
 }
 
-function renderTotal(totals : Map<string, { material : Material, total : number}>) {
+function renderTotal(totals : Map<string, { material : Material, total : number}>, BoatType?: string) {
     totalsGrid.innerHTML = '';
 
     const byCategory = new Map<string, Array<{material : Material, total : number}>>();
@@ -106,7 +106,12 @@ function renderTotal(totals : Map<string, { material : Material, total : number}
         card.className = 'component-card';
 
         const title = document.createElement('h3');
-        title.textContent = category === 'special' ? 'Special items' : `${category}s`;
+        const isSloop = BoatType === 'sloop';
+        title.textContent =
+            category === 'special'   ? 'Special items' :
+            isSloop && category === 'Hull part' ? 'Large hull parts' :
+            isSloop && category === 'Keel part' ? 'Large keel parts' :
+            `${category}s`;
 
         const list = document.createElement('ul');
         values.forEach(v => {
